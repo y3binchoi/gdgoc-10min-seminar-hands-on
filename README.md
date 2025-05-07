@@ -23,7 +23,8 @@ Spring Boot 애플리케이션에서 **로그(Log)** 와 **메트릭(Metric)** �
 
 아키텍처 구조: 
 
-![image]
+<img width="1100" alt="image" src="https://github.com/user-attachments/assets/98da9713-5ec9-4058-9b22-71c04c27b6a6" />
+
 
 ## 프로젝트 구조
 
