@@ -21,6 +21,61 @@ Spring Boot 애플리케이션에서 **로그(Log)** 와 **메트릭(Metric)** �
 - **Grafana**: 대시보드 시각화
 - **Docker Compose** 기반 통합 구성
 
+아키텍처 구조: 
+
+![image]
+
+## 프로젝트 구조
+
+```bash
+gdgoc-10min-seminar-hands-on
+├── app
+│   └── logs
+├── demo
+│   ├── build
+│   │   ├── classes
+│   │   ├── generated
+│   │   ├── libs
+│   │   ├── reports
+│   │   ├── resolvedMainClassName
+│   │   ├── resources
+│   │   ├── test-results
+│   │   └── tmp
+│   ├── build.gradle
+│   ├── demo
+│   │   └── logs
+│   ├── Dockerfile
+│   ├── gradle
+│   │   └── wrapper
+│   ├── gradlew
+│   ├── gradlew.bat
+│   ├── HELP.md
+│   ├── logs
+│   │   └── app.log
+│   ├── settings.gradle
+│   └── src
+│       ├── main
+│       └── test
+├── docker-compose.yml
+├── generate-traffic.sh
+├── grafana
+│   ├── dashboards
+│   │   ├── sample-dashboard.json
+│   │   └── simple-dashboard.json
+│   └── provisioning
+│       ├── dashboards
+│       └── datasources
+├── loki
+│   └── config.yml
+├── prometheus
+│   └── prometheus.yml
+├── promtail
+│   └── config.yml
+└── README.md
+```
+
+---
+
 ## 🚀 빠른 시작
 
 ### 1. 이 저장소를 클론
