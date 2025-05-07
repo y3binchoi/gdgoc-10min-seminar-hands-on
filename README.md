@@ -107,6 +107,13 @@ Spring Boot 앱: http://localhost:8080
 Grafana: http://localhost:3000
 ID: admin, PW: admin
 
+### 🎲 랜덤 트래픽 만들기 
+
+```bash
+chmod +x generate-traffic.sh # 맥 기준
+./generate-traffic.sh
+```
+
 ## 🧹 종료
 
 ```bash
