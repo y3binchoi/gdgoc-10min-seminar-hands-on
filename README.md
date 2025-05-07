@@ -111,7 +111,7 @@ ID: admin, PW: admin
 
 ```bash
 chmod +x generate-traffic.sh # 맥 기준
-./generate-traffic.sh
+./generate-traffic.sh {숫자} # 입력한 숫자 만큼 요청 보냄. 기본 50
 ```
 
 ## 🧹 종료
